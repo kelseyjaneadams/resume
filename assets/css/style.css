@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ---------------------------------------- Colours */
+/*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
@@ -22,7 +22,7 @@
     background-color: #525252;
 }
 
-/* ---------------------------------------- Heading */
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -30,7 +30,6 @@ header {
 
 .heading {
     margin-left: 50px;
-
 }
 
 .logo {
@@ -74,6 +73,10 @@ header {
     padding: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 .menuitem {
     height: 120px;
     text-align: center;
@@ -101,6 +104,13 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300px;
+    font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
